@@ -76,3 +76,26 @@ export const SOCIAL_NETWORKs = [
     { name: 'Twitter', icon: 'x' },
     { name: 'Instagram', icon: 'instagram' },
 ]
+
+export const EDUCATION = [
+    {
+        title: 'Ing En tecnologias de la informacion',
+        college: 'Colaborador Freelance',
+        description: [
+            'Colaborador en el desarrollo de una aplicación web utilizando Laravel, MySQL y REACT.'
+        ],
+        start_date: 'Oct 2019',
+        end_date: 'Mar 2021',
+    },
+
+    {
+        title: 'Ing En tecnologias de la informacion',
+        college: 'Colaborador Freelance',
+        description: [
+            'Colaborador en el desarrollo de una aplicación web utilizando Laravel, MySQL y REACT.'
+        ],
+        start_date: 'Oct 2019',
+        end_date: 'Mar 2021',
+    },
+
+]
