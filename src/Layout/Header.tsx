@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ThemeButtom from "../componets/ThemeButtom";
 import { Link, NavLink } from "react-router-dom";
-
+import { MENU } from "../data/data";
 function Header() {
   return (
     <>
@@ -51,38 +51,16 @@ function Header() {
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
-              <li>
-                <NavLink
-                  to="/"
-                  className={({ isActive }) => (isActive ? "active" : "")}
-                >
-                  About me
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/experience"
-                  className={({ isActive }) => (isActive ? "active" : "")}
-                >
-                  Experience
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/education"
-                  className={({ isActive }) => (isActive ? "active" : "")}
-                >
-                  Education
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/contact"
-                  className={({ isActive }) => (isActive ? "active" : "")}
-                >
-                  Contact
-                </NavLink>
-              </li>
+              {MENU.map((itme, index) => (
+                <li key={index}>
+                  <NavLink
+                    to={itme.url}
+                    className={({ isActive }) => (isActive ? "active" : "")}
+                  >
+                    {itme.title}
+                  </NavLink>
+                </li>
+              ))}
             </ul>
           </div>
           <div className="navbar-end">
