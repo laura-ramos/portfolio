@@ -79,8 +79,8 @@ export const SOCIAL_NETWORKs = [
 
 export const EDUCATION = [
     {
-        title: 'Ing En tecnologias de la informacion',
-        college: 'Colaborador Freelance',
+        title: 'Ing En Tecnologías de la Información',
+        college: 'Universidad Tecnologica de los Valles Centrales de Oaxaca',
         description: [
             'Colaborador en el desarrollo de una aplicación web utilizando Laravel, MySQL y REACT.'
         ],
@@ -89,8 +89,8 @@ export const EDUCATION = [
     },
 
     {
-        title: 'Ing En tecnologias de la informacion',
-        college: 'Colaborador Freelance',
+        title: 'TSU En Tecnologías de la Información',
+        college: 'Universidad Tecnologica de los Valles Centrales de Oaxaca',
         description: [
             'Colaborador en el desarrollo de una aplicación web utilizando Laravel, MySQL y REACT.'
         ],
