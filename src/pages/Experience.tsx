@@ -5,6 +5,7 @@ function Experience() {
     return (
         <>
             <div className="max-w-5xl mx-auto p-4">
+            <h3 className="text-6xl font-bold text-primary text-center">Experience</h3>
                 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                     {EXPERIENCE.map((item, index) => (
                         <li key={index}>

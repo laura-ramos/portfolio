@@ -5,6 +5,7 @@ function Education() {
   return (
     <>
       <div className="max-w-5xl mx-auto p-4">
+      <h3 className="text-6xl font-bold text-primary text-center">Education</h3>
         <ul className="">
           {EDUCATION.map((item, index) => (
             <li key={index} className="flex items-center m-4 gap-3">
@@ -13,7 +14,7 @@ function Education() {
                   <img src="/images/utvco.jpg" />
                 </div>
               </div>
-              <div className="card card-side bg-base-100 shadow-xl ml-3 w-full">
+              <div className="card card-side shadow-xl ml-3 w-full">
                 <div className="card-body">
                   <h2 className="card-title">{item.title}</h2>
                   <time className="font-mono italic">{item.start_date}-{item.end_date}</time>

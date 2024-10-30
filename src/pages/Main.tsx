@@ -9,7 +9,7 @@ function Main() {
   return (
     <>
 
-      <div className="min-h-screen bg-gray-100">
+      <div className="min-h-screen">
         <Header />
         <main className="p-4">
           <AboutMe/>

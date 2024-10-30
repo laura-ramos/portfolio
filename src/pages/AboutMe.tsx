@@ -21,8 +21,8 @@ function AboutMe() {
                         <ul className="flex gap-4">
                             {SOCIAL_NETWORKs.map((item, index) => (
                                 <li key={index}>
-                                    <button className="btn btn-circle btn-outline" title={item.name}>
-                                        <Icon iconName={item.icon} />
+                                    <button className="btn btn-circle btn-outline btn-primary text-neutral" title={item.name}>
+                                        <Icon iconName={item.icon} color='text-neutral' />
 
                                     </button>
 
@@ -33,31 +33,33 @@ function AboutMe() {
                     </div>
                 </div>
             </div>
-            <div className="mx-auto grid grid-cols-12 max-w-7xl">
-                <div className="col-span-5">
-                <img
-                    src={image}
-                    className="max-w-sm rounded-lg shadow-2xl" />
+
+            {SKILLS.map((item, index) => (
+                <div className="mx-auto grid grid-cols-12 max-w-7xl">
+                    <div className="col-span-5">
+                        <img
+                            src={item.image}
+                            className="max-w-sm rounded-lg shadow-2xl" />
                     </div>
-                <div className='col-span-7'>
-                    <h3 className="text-6xl font-bold">Skills</h3>
-                    <ul className="inline-grid grid-cols-4 gap-5 mt-4 w-full">
-                        {SKILLS.map(item => (
-                            <li key={item.id}>
-                                <button className='group text-sm font-semibold w-full flex flex-col items-center text-sky-500'>
-                                    <img
-                                        src={item.image}
-                                        className="rounded-lg w-24" />
-                                    {item.name}
-                                </button>
+                    <div className='col-span-7'>
+                        <h3 className="text-6xl font-bold text-primary">{item.name}</h3>
+                        <ul className="inline-grid grid-cols-4 gap-5 mt-4 w-full">
+                            {item.skills.map((data, index) => (
+                                <li key={index}>
+                                    <button className='group text-sm font-semibold w-full flex flex-col items-center text-sky-500'>
+                                        <img
+                                            src={data.image}
+                                            className="rounded-lg w-20" />
+                                        {data.name}
+                                    </button>
 
-                            </li>
-                        ))}
-                    </ul>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
                 </div>
+            ))}
 
-
-            </div>
         </>
     )
 }
