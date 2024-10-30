@@ -1,15 +1,35 @@
 export const SKILLS = [
-    { id: 1, name: 'PHP', image: '/images/php.png' },
-    { id: 2, name: 'Drupal', image: '/images/drupal.png' },
-    { id: 3, name: 'Laravel', image: '/images/laravel.png' },
-    { id: 4, name: 'Python', image: '/images/python.png' },
-    { id: 5, name: 'Javascript', image: '/images/js.png' },
-    { id: 6, name: 'React', image: '/images/React.webp' },
-    { id: 7, name: 'HTML5', image: '/images/html.png' },
-    { id: 8, name: 'CSS3', image: '/images/css.png' },
-    { id: 9, name: 'Tailwind', image: '/images/tailwind.png' },
-    { id: 10, name: 'Bootstrap', image: '/images/bootstrap.png' },
-    { id: 11, name: 'GIT', image: '/images/git.png' }
+    {
+        name: 'Frontend',
+        image: "/images/frontend.png",
+        skills: [
+            { id: 1, name: 'PHP', image: '/images/php.png' },
+            { id: 2, name: 'Drupal', image: '/images/drupal.png' },
+            { id: 3, name: 'Laravel', image: '/images/laravel.png' },
+            { id: 4, name: 'Python', image: '/images/python.png' },
+        ]
+    },
+    {
+        name: 'Backend',
+        image: "/images/backend.png",
+        skills: [
+            { id: 5, name: 'Javascript', image: '/images/js.png' },
+            { id: 6, name: 'React', image: '/images/React.webp' },
+            { id: 7, name: 'HTML5', image: '/images/html.png' },
+            { id: 8, name: 'CSS3', image: '/images/css.png' },
+            { id: 9, name: 'Tailwind', image: '/images/tailwind.png' },
+            { id: 10, name: 'Bootstrap', image: '/images/bootstrap.png' },
+        ]
+    },
+    {
+        name: 'Otros',
+        skills: [
+            { id: 11, name: 'GIT', image: '/images/git.png' }
+        ]
+    }
+
+
+
 ]
 
 export const EXPERIENCE = [
@@ -96,6 +116,34 @@ export const EDUCATION = [
         ],
         start_date: 'Oct 2019',
         end_date: 'Mar 2021',
+    },
+
+]
+
+export const PROJECTS = [
+    {
+        title: 'PPSS',
+        description: "",
+        image: "/images/ppss.png",
+        color: "bg-lime-300"
+    },
+    {
+        title: 'Stripe Gateway',
+        description: "",
+        image: "/images/stripe.png",
+        color: "bg-ping-300"
+    },
+    {
+        title: 'Invoicing Mexican Sales',
+        description: "",
+        image: "/images/ims.png",
+        color: "bg-orange-300"
+    },
+    {
+        title: 'Bigin CRM integration',
+        description: "",
+        image: "/images/bigin.png",
+        color: "bg-purple-300"
     },
 
 ]
