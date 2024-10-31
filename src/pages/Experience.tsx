@@ -1,27 +1,21 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { EXPERIENCE } from '../data/data';
+import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 
 function Experience() {
 
     return (
         <>
             <div className="max-w-5xl mx-auto p-4">
-            <h3 className="text-6xl font-bold text-primary text-center">Experience</h3>
+            <h3 className="text-6xl font-bold text-center">Experience</h3>
                 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                     {EXPERIENCE.map((item, index) => (
                         <li key={index}>
                             <div className="timeline-middle">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 20 20"
-                                    fill="currentColor"
-                                    className="h-7 w-7 text-accent">
-                                    <path
-                                        fillRule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                        clipRule="evenodd" />
-                                </svg>
+                                <FontAwesomeIcon icon={faCircleCheck} size='2x'/>
+
                             </div>
-                            <div className={`card bg-base-100 shadow-xl mb-10 ${index % 2 === 0 ? 'timeline-start' : 'timeline-end'}`}>
+                            <div className={`card ${index % 2 === 0 ? 'timeline-start' : 'timeline-end'}`}>
                                 <div className="card-body">
                                     <h2 className="card-title">{item.title}</h2>
                                     <time className="font-mono italic">{item.start_date}-{item.end_date}</time>
@@ -34,7 +28,7 @@ function Experience() {
 
                                 </div>
                             </div>
-                            <hr className="bg-accent" />
+                            <hr />
                         </li>
                     ))}
 

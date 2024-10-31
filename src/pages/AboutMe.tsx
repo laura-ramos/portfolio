@@ -42,11 +42,11 @@ function AboutMe() {
                             className="max-w-sm rounded-lg shadow-2xl" />
                     </div>
                     <div className='col-span-7'>
-                        <h3 className="text-6xl font-bold text-primary">{item.name}</h3>
+                        <h3 className="text-4xl font-bold">{item.name}</h3>
                         <ul className="inline-grid grid-cols-4 gap-5 mt-4 w-full">
                             {item.skills.map((data, index) => (
                                 <li key={index}>
-                                    <button className='group text-sm font-semibold w-full flex flex-col items-center text-sky-500'>
+                                    <button className='group text-sm font-semibold w-full flex flex-col items-center'>
                                         <img
                                             src={data.image}
                                             className="rounded-lg w-20" />

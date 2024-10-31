@@ -102,7 +102,7 @@ export const EDUCATION = [
         title: 'Ing En Tecnologías de la Información',
         college: 'Universidad Tecnologica de los Valles Centrales de Oaxaca',
         description: [
-            'Colaborador en el desarrollo de una aplicación web utilizando Laravel, MySQL y REACT.'
+            'Avenida Universidad S/N, 71270 San Pablo Huixtepec, Oax.'
         ],
         start_date: 'Oct 2019',
         end_date: 'Mar 2021',
@@ -112,7 +112,7 @@ export const EDUCATION = [
         title: 'TSU En Tecnologías de la Información',
         college: 'Universidad Tecnologica de los Valles Centrales de Oaxaca',
         description: [
-            'Colaborador en el desarrollo de una aplicación web utilizando Laravel, MySQL y REACT.'
+            'Avenida Universidad S/N, 71270 San Pablo Huixtepec, Oax.'
         ],
         start_date: 'Oct 2019',
         end_date: 'Mar 2021',

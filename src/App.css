@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Modo oscuro */
+@media (prefers-color-scheme: violet) {
+    h1 {
+        color: #3B1E54; /* Color para el modo oscuro */
+    }
+    body {
+        color: #3B1E54; /* Color para el modo oscuro */
+    }
+}

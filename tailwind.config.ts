@@ -15,15 +15,13 @@ module.exports = {
       {
         violet: {
           "primary": "#3B1E54",
-          "secondary": "#D4BEE4",
-          "accent": "#9B7EBD",
-          "neutral": "#EEEEEE",
-          "base-100": "#EEEEEE",
-          "info": "#EEEEEE", 
-          "success": "#9B7EBD",  
-          "warning": "#9B7EBD",
-          "error": "#ff0000",
-          "primary-content": "#d4cedb",
+          "secondary": "#9B7EBD",
+          "accent": "#D4BEE4",
+          "neutral": "#9B7EBD",
+          "base-100": "#ffffff",
+          "neutral-content": "#FFFFFF",
+          "base-300": "#9B7EBD",
+          "base-content": "#3B1E54"
         },
       },
     ],

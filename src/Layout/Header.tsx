@@ -6,7 +6,7 @@ function Header() {
   return (
     <>
       <nav className=" w-full top-0 z-50">
-        <div className="navbar shadow-xl">
+        <div className="navbar shadow-xl violet:bg-withe">
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -47,7 +47,7 @@ function Header() {
                 </li>
               </ul>
             </div>
-            <a className="btn btn-ghost text-xl">Portfolio</a>
+            <a className="btn text-xl">Portfolio</a>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
