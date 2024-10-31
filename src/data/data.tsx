@@ -22,7 +22,7 @@ export const SKILLS = [
         ]
     },
     {
-        name: 'Otros',
+        name: 'Tools',
         skills: [
             { id: 11, name: 'GIT', image: '/images/git.png' }
         ]
@@ -143,6 +143,12 @@ export const PROJECTS = [
         title: 'Bigin CRM integration',
         description: "",
         image: "/images/bigin.png",
+        color: "bg-purple-300"
+    },
+    {
+        title: 'Portfolio',
+        description: "",
+        image: "/images/portfolio.png",
         color: "bg-purple-300"
     },
 

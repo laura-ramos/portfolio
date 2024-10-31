@@ -33,33 +33,25 @@ function AboutMe() {
                     </div>
                 </div>
             </div>
-
-            {SKILLS.map((item, index) => (
-                <div className="mx-auto grid grid-cols-12 max-w-7xl">
-                    <div className="col-span-5">
-                        <img
-                            src={item.image}
-                            className="max-w-sm rounded-lg shadow-2xl" />
-                    </div>
-                    <div className='col-span-7'>
+            <div className="max-w-7xl mx-auto p-4 text-center">
+                {SKILLS.map((item, index) => (
+                    <div key={index} className='pt-6 pb-6'>
                         <h3 className="text-4xl font-bold">{item.name}</h3>
-                        <ul className="inline-grid grid-cols-4 gap-5 mt-4 w-full">
+                        <ul className="inline-grid grid-cols-6 gap-5">
                             {item.skills.map((data, index) => (
                                 <li key={index}>
-                                    <button className='group text-sm font-semibold w-full flex flex-col items-center'>
+                                    <button className='border group text-sm font-semibold grid flex-col items-center p-3 w-36 h-28 justify-items-center'>
                                         <img
                                             src={data.image}
-                                            className="rounded-lg w-20" />
-                                        {data.name}
+                                            className="h-16" />
+                                        <span className='pt-2'>{data.name}</span>
                                     </button>
-
                                 </li>
                             ))}
                         </ul>
                     </div>
-                </div>
-            ))}
-
+                ))}
+            </div>
         </>
     )
 }
