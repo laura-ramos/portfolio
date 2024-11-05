@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { EXPERIENCE } from '../data/data';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons/faBriefcase';
 
 function Experience() {
 
@@ -12,10 +13,10 @@ function Experience() {
                     {EXPERIENCE.map((item, index) => (
                         <li key={index}>
                             <div className="timeline-middle">
-                                <FontAwesomeIcon icon={faCircleCheck} size='2x'/>
+                                <FontAwesomeIcon icon={faBriefcase} size='2x'/>
 
                             </div>
-                            <div className={`card ${index % 2 === 0 ? 'timeline-start' : 'timeline-end'}`}>
+                            <div className={`card ${index % 2 === 0 ? 'timeline-start animate-fade-right' : 'timeline-end animate-fade-left'} animate-delay-[6ms]`}>
                                 <div className="card-body">
                                     <h2 className="card-title">{item.title}</h2>
                                     <time className="font-mono italic">{item.start_date}-{item.end_date}</time>
@@ -31,7 +32,6 @@ function Experience() {
                             <hr />
                         </li>
                     ))}
-
                 </ul>
             </div>
 

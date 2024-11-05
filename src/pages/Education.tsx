@@ -12,7 +12,7 @@ function Education() {
       <h3 className="text-6xl font-bold text-center">Education</h3>
         <ul className="">
           {EDUCATION.map((item, index) => (
-            <li key={index} className="flex items-center m-4 gap-3">
+            <li key={index} className="flex items-center m-4 gap-3 animate-fade-right animate-delay-[20ms]">
               <div className="avatar">
                 <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
                   <img src="/images/utvco.jpg" />
