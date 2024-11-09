@@ -13,11 +13,11 @@ function Education() {
         <ul className="">
           {EDUCATION.map((item, index) => (
             <li key={index} className="flex items-center m-4 gap-3 animate-fade-right animate-delay-[20ms]">
-              <div className="avatar">
+              <a className="avatar" href={item.url} target="_blank">
                 <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
                   <img src="/images/utvco.jpg" />
                 </div>
-              </div>
+              </a>
               <div className="card card-side shadow-xl ml-3 w-full">
                 <div className="card-body">
                   <h2 className="card-title">{item.title}</h2>

@@ -47,7 +47,7 @@ function Header() {
             </div>
             <a className="btn text-xl">Portfolio</a>
           </div>
-          <div className="navbar-center hidden lg:flex">
+          <div className="navbar-center  ">
             <ul className="menu menu-horizontal px-1">
               {MENU.map((itme, index) => (
                 <li key={index}>

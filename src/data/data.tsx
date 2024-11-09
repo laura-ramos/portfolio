@@ -24,7 +24,11 @@ export const SKILLS = [
     {
         name: 'Tools',
         skills: [
-            { id: 11, name: 'GIT', image: '/images/git.png' }
+            { id: 11, name: 'GIT', image: '/images/git.png' },
+            { id: 12, name: 'GITHUB', image: '/images/github.png' },
+            { id: 13, name: 'Jira', image: '/images/jira.png' },
+            { id: 14, name: 'Postman', image: '/images/postman.png' },
+            { id: 15, name: 'Visual Studio Code', image: '/images/vscode.png' }
         ]
     }
 
@@ -91,10 +95,8 @@ export const MENU = [
 ]
 
 export const SOCIAL_NETWORKs = [
-    { name: 'Likedin', icon: 'linkedin' },
-    { name: 'Github', icon: 'git' },
-    { name: 'Twitter', icon: 'x' },
-    { name: 'Instagram', icon: 'instagram' },
+    { name: 'Likedin', icon: 'linkedin', url: "https://mx.linkedin.com/in/laura-ramos-alonso-923056223" },
+    { name: 'Github', icon: 'git', url: "https://github.com/laura-ramos" },
 ]
 
 export const EDUCATION = [
@@ -106,6 +108,7 @@ export const EDUCATION = [
         ],
         start_date: 'Oct 2019',
         end_date: 'Mar 2021',
+        url: "https://utvco.edu.mx/"
     },
 
     {
@@ -116,6 +119,7 @@ export const EDUCATION = [
         ],
         start_date: 'Oct 2019',
         end_date: 'Mar 2021',
+        url: "https://utvco.edu.mx/"
     },
 
 ]
@@ -125,30 +129,35 @@ export const PROJECTS = [
         title: 'PPSS',
         description: "",
         image: "/images/ppss.png",
+        url: "https://drupal.org/project/ppss",
         color: "bg-lime-300"
     },
     {
         title: 'Stripe Gateway',
         description: "",
         image: "/images/stripe.png",
+        url: "https://www.drupal.org/project/stripe_gateway",
         color: "bg-ping-300"
     },
     {
         title: 'Invoicing Mexican Sales',
         description: "",
         image: "/images/ims.png",
+        url: "https://www.drupal.org/project/ims",
         color: "bg-orange-300"
     },
     {
         title: 'Bigin CRM integration',
         description: "",
         image: "/images/bigin.png",
+        url: "https://www.drupal.org/project/bigin_crm",
         color: "bg-purple-300"
     },
     {
         title: 'Portfolio',
         description: "",
         image: "/images/portfolio.png",
+        url: "/",
         color: "bg-purple-300"
     },
 

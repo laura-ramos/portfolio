@@ -15,7 +15,9 @@ function Projects() {
               <div className="flex absolute inset-0 p-2 bg-primary bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition duration-700 ease-in-out">
 
                 <div className="text-center content-center w-full">
-                  <a href=""><FontAwesomeIcon icon={faLink} size="2xl" /></a>
+                  <a href={item.url} target="_blank">
+                    <FontAwesomeIcon icon={faLink} size="2xl" />
+                  </a>
                   <h2 className="text-4xl font-bold">{item.title}</h2>
                 </div>
 
