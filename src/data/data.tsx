@@ -27,8 +27,7 @@ export const SKILLS = [
             { id: 11, name: 'GIT', image: '/images/git.png' },
             { id: 12, name: 'GITHUB', image: '/images/github.png' },
             { id: 13, name: 'Jira', image: '/images/jira.png' },
-            { id: 14, name: 'Postman', image: '/images/postman.png' },
-            { id: 15, name: 'Visual Studio Code', image: '/images/vscode.png' }
+            { id: 14, name: 'Postman', image: '/images/postman.png' }
         ]
     }
 
@@ -106,8 +105,8 @@ export const EDUCATION = [
         description: [
             'Avenida Universidad S/N, 71270 San Pablo Huixtepec, Oax.'
         ],
-        start_date: 'Oct 2019',
-        end_date: 'Mar 2021',
+        start_date: 'Sep 2017',
+        end_date: 'Abr 2019',
         url: "https://utvco.edu.mx/"
     },
 
@@ -117,8 +116,8 @@ export const EDUCATION = [
         description: [
             'Avenida Universidad S/N, 71270 San Pablo Huixtepec, Oax.'
         ],
-        start_date: 'Oct 2019',
-        end_date: 'Mar 2021',
+        start_date: 'Sep 2015',
+        end_date: 'Ag 2017',
         url: "https://utvco.edu.mx/"
     },
 

@@ -2,6 +2,7 @@ import { useState } from "react";
 import ThemeButtom from "../componets/ThemeButtom";
 import { NavLink } from "react-router-dom";
 import { MENU } from "../data/data";
+import logo from "../assets/developer.png";
 function Header() {
 
   return (
@@ -46,7 +47,7 @@ function Header() {
                 </ul>
               </div>
             </div>
-            <a className="btn text-xl">Portfolio</a>
+            <a href="/"><img src={logo}/></a>
           </div>
           <div className="navbar-center hidden md:flex">
             <ul className="menu menu-horizontal px-1">

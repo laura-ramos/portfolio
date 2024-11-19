@@ -10,7 +10,8 @@ function Projects() {
         <h3 className="text-6xl font-bold text-center">Projects</h3>
         <div className="grid md:grid-cols-2 gap-4 mt-5 grid-cols-1">
           {PROJECTS.map((item, index) => (
-            <div key={index} className="relative group portfolio overflow-hidden animate-fade-down animate-delay-[20ms]">
+            <div key={index} 
+              className={`relative group portfolio overflow-hidden ${index % 2 === 0 ? 'animate-fade-right' : 'animate-fade-left'} animate-delay-[6ms]`}>
               <img src={item.image} alt="Imagen" className="w-full h-auto" />
               <div className="flex absolute inset-0 p-2 bg-primary bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition duration-700 ease-in-out">
 
