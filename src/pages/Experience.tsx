@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { EXPERIENCE } from '../data/data';
-import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons/faBriefcase';
 
 function Experience() {

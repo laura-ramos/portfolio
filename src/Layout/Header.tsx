@@ -1,4 +1,3 @@
-import { useState } from "react";
 import ThemeButtom from "../componets/ThemeButtom";
 import { NavLink } from "react-router-dom";
 import { MENU } from "../data/data";

@@ -41,7 +41,7 @@ export const EXPERIENCE = [
         company_name: 'Editorial Golfo Pacifico S.A de C.V,',
         description: [
             'Desarrollo y mantenimiento de sistema interno de ventas con Laravel, React y MySQL.',
-            'Mantenimiento y mejora del porta corporativo en Drupal.',
+            'Mantenimiento y mejora del portal web en Drupal.',
             'Desarrollo de módulos personalizados utilizando la API de Drupal',
             'Integración de API de terceros con Drupal',
             'Proporcionar soporte técnico y orientación a los usuarios.'
@@ -54,10 +54,10 @@ export const EXPERIENCE = [
         title: 'Desarrollador Web',
         company_name: 'Servicios de Agua Potable y Alcantarillado de Oaxaca (SAPAO)',
         description: [
-            'Realicé entrevistas y encuestas con usuarios finales y partes interesadas para identificar necesidades y expectativas del producto.',
-            'Desarrollé interfaces de usuario intuitivas y responsivas utilizando HTML, CSS y Bootstrap, mejorando la experiencia del usuario',
-            'Escribí código eficiente y mantenible en PHP para implementar funcionalidades del lado del servidor.',
-            'Implementé conexiones seguras entre la aplicación y la base de datos, utilizando consultas SQL.'
+            'Obtención de requerimientos.',
+            'Desarrollo de interfaces de usuario intuitivas y responsivas utilizando HTML, CSS y Bootstrap, mejorando la experiencia del usuario',
+            'Escribir código eficiente y mantenible en PHP para implementar funcionalidades del lado del servidor.',
+            'Implementar conexiones seguras entre la aplicación y la base de datos, utilizando consultas SQL.'
         ],
         start_date: 'Dic 2019',
         end_date: 'Ene 2022',
@@ -95,7 +95,7 @@ export const MENU = [
 
 export const SOCIAL_NETWORKs = [
     { name: 'Likedin', icon: 'linkedin', url: "https://mx.linkedin.com/in/laura-ramos-alonso-923056223" },
-    { name: 'Github', icon: 'git', url: "https://github.com/laura-ramos" },
+    { name: 'Github', icon: 'github', url: "https://github.com/laura-ramos" },
 ]
 
 export const EDUCATION = [
