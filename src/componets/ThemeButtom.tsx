@@ -1,9 +1,5 @@
-import { useState } from "react";
 
 function ThemeButtom() {
-
-    const [theme, setTheme] = useState('violet'); // o 'dark', según tu preferencia
-
     const handleThemeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
       document.documentElement.setAttribute('data-theme', event.target.checked ? "dark" : "violet");
     };

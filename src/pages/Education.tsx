@@ -1,7 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { EDUCATION, EXPERIENCE } from "../data/data"
-import { faMap } from "@fortawesome/free-solid-svg-icons/faMap"
-import { faLocation } from "@fortawesome/free-solid-svg-icons/faLocation"
+import { EDUCATION } from "../data/data"
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons/faLocationDot"
 
 function Education() {

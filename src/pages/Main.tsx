@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 import "../App.css"
 import Header from '../Layout/Header'
 import AboutMe from './AboutMe'

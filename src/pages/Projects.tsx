@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import image from "../assets/dev.png";
 import { PROJECTS } from "../data/data";
 import { faLink } from "@fortawesome/free-solid-svg-icons/faLink";
 

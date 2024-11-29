@@ -1,6 +1,6 @@
-import { SKILLS, SOCIAL_NETWORKs } from '../data/data';
+import { SKILLS } from '../data/data';
 import image from "../assets/girl-dev.png";
-import Icon from '../componets/Icon';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function AboutMe() {
 
     return (
@@ -22,14 +22,22 @@ function AboutMe() {
                             JavaScript, React, and of course HTML/CSS
                         </p>
                         <ul className="flex gap-4">
-                            {SOCIAL_NETWORKs.map((item, index) => (
-                                <li key={index}>
-                                    <a className="btn btn-circle btn-outline btn-primary text-neutral" href={item.url} title={item.name}>
-                                        <Icon iconName={item.icon} color='text-neutral' />
-                                    </a>
-
-                                </li>
-                            ))}
+                            <li>
+                                <a className="btn btn-circle btn-outline btn-primary text-neutral" 
+                                href="https://github.com/laura-ramos"
+                                title="github"
+                                target='_blank'>
+                                <FontAwesomeIcon icon={["fab", "github"]} size='lg'/>
+                                </a>
+                            </li>
+                            <li>
+                                <a className="btn btn-circle btn-outline btn-primary text-neutral" 
+                                href="https://mx.linkedin.com/in/laura-ramos-alonso-923056223"
+                                title="linkedin"
+                                target='_blank'>
+                                <FontAwesomeIcon icon={["fab", "linkedin"]} size='lg'/>
+                                </a>
+                            </li>
                         </ul>
 
                     </div>
