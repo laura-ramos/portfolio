@@ -1,7 +1,7 @@
 import { SKILLS } from '../data/data';
 import image from "../assets/girl-dev.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-function AboutMe() {
+export const AboutMe = () => {
 
     return (
         <>
@@ -68,4 +68,3 @@ function AboutMe() {
     )
 }
 
-export default AboutMe

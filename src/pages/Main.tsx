@@ -1,6 +1,6 @@
 import "../App.css"
-import Header from '../Layout/Header'
-import AboutMe from './AboutMe'
+import { Header } from '../Layout/Header'
+import { AboutMe } from './AboutMe'
 
 function Main() {
 

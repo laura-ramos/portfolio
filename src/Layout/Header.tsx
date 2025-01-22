@@ -1,8 +1,9 @@
-import ThemeButtom from "../componets/ThemeButtom";
+import { ThemeButtom } from "../componets/ThemeButtom";
 import { NavLink } from "react-router-dom";
 import { MENU } from "../data/data";
 import logo from "../assets/developer.png";
-function Header() {
+
+export const Header = () => {
 
   return (
     <>
@@ -70,5 +71,3 @@ function Header() {
     </>
   );
 }
-
-export default Header;

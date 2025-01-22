@@ -7,11 +7,12 @@ import {
 
 import App from './App.tsx'
 import './index.css'
-import AboutMe from './pages/AboutMe.tsx';
-import Experience from './pages/Experience.tsx';
-import Education from './pages/Education.tsx';
-import ErrorPage from './pages/ErrorPage.tsx';
-import Projects from './pages/Projects.tsx';
+import { AboutMe } from './pages/AboutMe.tsx';
+import { Experience } from './pages/Experience.tsx';
+import { Education } from './pages/Education.tsx';
+import { ErrorPage } from './pages/ErrorPage.tsx';
+import { Projects } from './pages/Projects.tsx';
+import { ThemeProvider } from './context/ThemeContext.tsx';
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,9 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <ThemeProvider>
+      <RouterProvider router={router} />
+    </ThemeProvider>
+    
   </StrictMode>,
 )

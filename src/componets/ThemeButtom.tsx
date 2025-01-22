@@ -1,9 +1,13 @@
+import { useContext, useEffect } from "react";
+import { ThemeContext } from "../context/ThemeContext";
 
-function ThemeButtom() {
-    const handleThemeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-      document.documentElement.setAttribute('data-theme', event.target.checked ? "dark" : "violet");
-    };
-    
+export const ThemeButtom = () => {
+    const { currentTheme, toggleTheme } = useContext(ThemeContext)
+
+    useEffect(() => {
+        document.documentElement.setAttribute('data-theme', currentTheme);
+      }, [currentTheme]);
+
     return (
         <>
             <label className="flex cursor-pointer gap-2">
@@ -21,7 +25,7 @@ function ThemeButtom() {
                     <path
                         d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" />
                 </svg>
-                <input type="checkbox" value="synthwave" className="toggle theme-controller" onChange={handleThemeChange} />
+                <input type="checkbox" value="synthwave" className="toggle theme-controller" onChange={toggleTheme} />
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
@@ -38,5 +42,3 @@ function ThemeButtom() {
         </>
     )
 }
-
-export default ThemeButtom

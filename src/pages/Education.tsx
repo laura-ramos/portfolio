@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { EDUCATION } from "../data/data"
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons/faLocationDot"
 
-function Education() {
+export const Education = () => {
 
   return (
     <>
@@ -33,5 +33,3 @@ function Education() {
     </>
   )
 }
-
-export default Education

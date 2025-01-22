@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { EXPERIENCE } from '../data/data';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons/faBriefcase';
 
-function Experience() {
+export const Experience = () => {
 
     return (
         <>
@@ -37,5 +37,3 @@ function Experience() {
         </>
     )
 }
-
-export default Experience
