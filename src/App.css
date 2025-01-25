@@ -4,10 +4,31 @@
 
 /* Modo oscuro */
 @media (prefers-color-scheme: violet) {
-    h1 {
-        color: #3B1E54; /* Color para el modo oscuro */
-    }
-    body {
-        color: #3B1E54; /* Color para el modo oscuro */
-    }
+  h1 {
+    color: #3B1E54;
+    /* Color para el modo oscuro */
+  }
+
+  body {
+    color: #3B1E54;
+    /* Color para el modo oscuro */
+  }
+}
+
+.text-name {
+  display: block;
+  white-space: nowrap;
+  width: 400px;
+  overflow: hidden;
+  border-right: 2px solid rgba(0, 0, 0, 0.87);
+  animation: typing 5s steps(23) infinite alternate;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 400px;
+  }
 }
