@@ -1,6 +1,6 @@
 export const SKILLS = [
     {
-        name: 'Frontend',
+        name: 'Backend',
         image: "/images/frontend.png",
         skills: [
             { id: 1, name: 'PHP', image: '/images/php.png' },
@@ -10,7 +10,7 @@ export const SKILLS = [
         ]
     },
     {
-        name: 'Backend',
+        name: 'Frontend',
         image: "/images/backend.png",
         skills: [
             { id: 5, name: 'Javascript', image: '/images/js.png' },
@@ -87,10 +87,10 @@ export const EXPERIENCE = [
 ]
 
 export const MENU = [
-    { title: 'Home', url: '/' },
-    { title: 'Education', url: '/education' },
-    { title: 'Experience', url: '/experience' },
-    { title: 'Projects', url: '/projects' },
+    { title: 'About', url: 'about' },
+    { title: 'Education', url: 'education' },
+    { title: 'Experience', url: 'experience' },
+    { title: 'Projects', url: 'projects' },
 ]
 
 export const SOCIAL_NETWORKs = [

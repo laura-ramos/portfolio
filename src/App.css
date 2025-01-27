@@ -32,3 +32,7 @@
     width: 400px;
   }
 }
+
+#about, #education, #experience, #projects {
+  padding-top: 110px;
+}
