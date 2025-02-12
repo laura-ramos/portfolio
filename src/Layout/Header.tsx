@@ -1,7 +1,7 @@
 import { ThemeButtom } from "../componets/ThemeButtom";
 import { MENU } from "../data/data";
 import logo from "../assets/developer.png";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 export const Header = () => {
 
