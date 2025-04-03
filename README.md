@@ -1,6 +1,6 @@
-# Portfolio
+# Personal Portfolio
 
-Portfolio created in React and hosted with Github Pages.
+Software Developer Portfolio created with React and Tailwind CSS to showcase my work and skills as a software developer.
 
 
 ## Built With

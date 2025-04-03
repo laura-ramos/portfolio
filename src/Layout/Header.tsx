@@ -1,12 +1,12 @@
-import ThemeButtom from "../componets/ThemeButtom";
-import { NavLink } from "react-router-dom";
+import { ThemeButtom } from "../componets/ThemeButtom";
 import { MENU } from "../data/data";
 import logo from "../assets/developer.png";
-function Header() {
+
+export const Header = () => {
 
   return (
     <>
-      <div className="sticky top-0 z-50 bg-base-100">
+      <header className="sticky top-0 z-50 bg-base-100">
         <nav className="navbar shadow-xl violet:bg-withe w-full justify-between">
           <div className="">
             <div className="drawer z-10">
@@ -33,31 +33,25 @@ function Header() {
               <div className="drawer-side">
                 <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
                 <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
-                  {MENU.map((itme, index) => (
+                  {MENU.map((item, index) => (
                     <li key={index}>
-                      <NavLink
-                        to={itme.url}
-                        className={({ isActive }) => (isActive ? "active" : "")}
-                      >
-                        {itme.title}
-                      </NavLink>
+                      <a href={item.url} >
+                        {item.title}
+                      </a>
                     </li>
                   ))}
                 </ul>
               </div>
             </div>
-            <a href="/"><img src={logo}/></a>
+            <a href="/"><img src={logo} /></a>
           </div>
           <div className="navbar-center hidden md:flex">
             <ul className="menu menu-horizontal px-1">
-              {MENU.map((itme, index) => (
+              {MENU.map((item, index) => (
                 <li key={index}>
-                  <NavLink
-                    to={itme.url}
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    {itme.title}
-                  </NavLink>
+                      <a href={item.url} >
+                        {item.title}
+                      </a>
                 </li>
               ))}
             </ul>
@@ -66,9 +60,7 @@ function Header() {
             <ThemeButtom />
           </div>
         </nav>
-      </div>
+      </header>
     </>
   );
 }
-
-export default Header;

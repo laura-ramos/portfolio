@@ -1,37 +1,36 @@
 export const SKILLS = [
     {
-        name: 'Frontend',
+        name: 'Backend',
         image: "/images/frontend.png",
         skills: [
-            { id: 1, name: 'PHP', image: '/images/php.png' },
-            { id: 2, name: 'Drupal', image: '/images/drupal.png' },
-            { id: 3, name: 'Laravel', image: '/images/laravel.png' },
-            { id: 4, name: 'Python', image: '/images/python.png' },
+            {name: 'PHP', image: '/images/php.png' },
+            {name: 'Drupal', image: '/images/drupal.png' },
+            {name: 'Laravel', image: '/images/laravel.png' },
+            {name: 'Python', image: '/images/python.png' },
         ]
     },
     {
-        name: 'Backend',
+        name: 'Frontend',
         image: "/images/backend.png",
         skills: [
-            { id: 5, name: 'Javascript', image: '/images/js.png' },
-            { id: 6, name: 'React', image: '/images/React.webp' },
-            { id: 7, name: 'HTML5', image: '/images/html.png' },
-            { id: 8, name: 'CSS3', image: '/images/css.png' },
-            { id: 9, name: 'Tailwind', image: '/images/tailwind.png' },
-            { id: 10, name: 'Bootstrap', image: '/images/bootstrap.png' },
+            {name: 'Javascript', image: '/images/js.png' },
+            {name: 'React', image: '/images/React.webp' },
+            {name: 'HTML5', image: '/images/html.png' },
+            {name: 'CSS3', image: '/images/css.png' },
+            {name: 'Tailwind', image: '/images/tailwind.png' },
+            {name: 'Bootstrap', image: '/images/bootstrap.png' },
         ]
     },
     {
         name: 'Tools',
         skills: [
-            { id: 11, name: 'GIT', image: '/images/git.png' },
-            { id: 12, name: 'GITHUB', image: '/images/github.png' },
-            { id: 13, name: 'Jira', image: '/images/jira.png' },
-            { id: 14, name: 'Postman', image: '/images/postman.png' }
+            { name: 'GIT', image: '/images/git.png' },
+            { name: 'GITHUB', image: '/images/github.png' },
+            { name: 'Jira', image: '/images/jira.png' },
+            { name: 'Postman', image: '/images/postman.png' },
+            { name: 'Docker', image: '/images/docker.png' },
         ]
     }
-
-
 
 ]
 
@@ -40,57 +39,57 @@ export const EXPERIENCE = [
         title: 'Desarrollador Frontend',
         company_name: 'Editorial Golfo Pacifico S.A de C.V,',
         description: [
-            'Desarrollo y mantenimiento de sistema interno de ventas con Laravel, React y MySQL.',
-            'Mantenimiento y mejora del portal web en Drupal.',
-            'Desarrollo de módulos personalizados utilizando la API de Drupal',
-            'Integración de API de terceros con Drupal',
-            'Proporcionar soporte técnico y orientación a los usuarios.'
+            'Desarrollo y mantenimiento integral del sistema interno de ventas de la empresa, utilizando Laravel como backend, React para la interfaz de usuario y MySQL como base de datos.',
+            'Mantenimiento y mejora de sitios web en Drupal, asegurando su seguridad, estabilidad y rendimiento.',
+            'Creación de módulos personalizados de Drupal para ampliar la funcionalidad de los sitios web, permitiendo a la empresa ofrecer nuevas características y servicios con la integración de diferentes APIs.',
+            'Gestión eficiente de solicitudes de soporte a través de la herramienta Service Desk, resolviendo problemas técnicos y funcionales de los usuarios y coordinando el mantenimiento preventivo de equipos de cómputo.'
         ],
         start_date: 'Ene 2022',
         end_date: 'Actualidad',
-        skills: ''
+        skills: ["Drupal", "Laravel", "PHP", "React", "Tailwind", "Docker", "Jira", "Python", "Bootstrap"]
     },
     {
         title: 'Desarrollador Web',
         company_name: 'Servicios de Agua Potable y Alcantarillado de Oaxaca (SAPAO)',
         description: [
-            'Obtención de requerimientos.',
-            'Desarrollo de interfaces de usuario intuitivas y responsivas utilizando HTML, CSS y Bootstrap, mejorando la experiencia del usuario',
-            'Escribir código eficiente y mantenible en PHP para implementar funcionalidades del lado del servidor.',
-            'Implementar conexiones seguras entre la aplicación y la base de datos, utilizando consultas SQL.'
+            "Recopilar, analizar y documentar los requerimientos del usuario.",
+            "Diseño y desarrollo de interfaces de usuario intuitivas y atractivas.",
+            "Desarrollo de aplicaciones web robustas y escalables utilizando PHP para la lógica del servidor, AngularJS para el front-end  y SQL Server como base de datos."
+            
         ],
         start_date: 'Dic 2019',
         end_date: 'Ene 2022',
-        skills: ''
+        skills: ["PHP", "SQL Server", "AngularJS"]
     },
     {
         title: 'Desarrollador Web',
         company_name: 'Colaborador Freelance',
         description: [
-            'Colaborador en el desarrollo de una aplicación web utilizando Laravel, MySQL y REACT.'
+            'Participación en el desarrollo de una aplicación web utilizando Laravel para el backend, MySQL para la gestión de la base de datos, y React para la interfaz de usuario.'
         ],
         start_date: 'Oct 2019',
         end_date: 'Mar 2021',
-        skills: ''
+        skills: ["Laravel", "React", "Bootstrap", "MySQL"]
     },
     {
         title: 'Desarrollador Web - Prácticas profesionales',
         company_name: 'Desarrollos Orientados a Eficiencia (Efisys)',
         description: [
-            'Desarrollo del módulo “Prospección de crédito en campo – Modo Offline”.(Android, MySQL)'
+            'Desarrollo del módulo "Prospección de crédito en campo – Modo Offline", implementando una solución para la gestión de datos offline. Utilizando SQLite para el almacenamiento local para despues ser sinconizado a la base de datos central.'
         ],
         start_date: 'Ene 2019',
         end_date: 'Abr 2019',
-        skills: ''
+        skills: ["Android", "MySQL", "SQLite"]
     },
 
 ]
 
 export const MENU = [
-    { title: 'Home', url: '/' },
-    { title: 'Education', url: '/education' },
-    { title: 'Experience', url: '/experience' },
-    { title: 'Projects', url: '/projects' },
+    { title: 'Home', url: '#about' },
+    { title: 'Skills', url: '#skills' },
+    { title: 'Education', url: '#education' },
+    { title: 'Experience', url: '#experience' },
+    { title: 'Projects', url: '#projects' },
 ]
 
 export const SOCIAL_NETWORKs = [
@@ -125,39 +124,36 @@ export const EDUCATION = [
 
 export const PROJECTS = [
     {
-        title: 'PPSS',
-        description: "",
-        image: "/images/ppss.png",
-        url: "https://drupal.org/project/ppss",
-        color: "bg-lime-300"
-    },
-    {
         title: 'Stripe Gateway',
-        description: "",
+        description: "The main purpose of this module is process service payments with Stripe, allow Drupal users to subscribe to Stripe plans and have one or more Drupal roles.",
         image: "/images/stripe.png",
         url: "https://www.drupal.org/project/stripe_gateway",
-        color: "bg-ping-300"
+        color: "bg-ping-300",
+        skills: ["Drupal", "PHP", "Stripe API"]
     },
     {
         title: 'Invoicing Mexican Sales',
-        description: "",
+        description: "Allows site to invoicing in compliance with mexican laws service. By now, module only works with Factura Digital México service to generate invoices.",
         image: "/images/ims.png",
         url: "https://www.drupal.org/project/ims",
-        color: "bg-orange-300"
+        color: "bg-orange-300",
+        skills: ["Drupal", "PHP"]
     },
     {
         title: 'Bigin CRM integration',
-        description: "",
+        description: "The main purpouse of this module is add all your Drupal new users accounts like prospects in Bigin CRM, the new kid on the block of Zoho familiy. Uses the Bigin Rest APIs to provide integration.",
         image: "/images/bigin.png",
         url: "https://www.drupal.org/project/bigin_crm",
-        color: "bg-purple-300"
+        color: "bg-purple-300",
+        skills: ["Drupal", "PHP", "Bigin CRM API"]
     },
     {
         title: 'Portfolio',
         description: "",
         image: "/images/portfolio.png",
         url: "/",
-        color: "bg-purple-300"
+        color: "bg-purple-300",
+        skills: ["React", "Tailwind", "Daisy UI"]
     },
 
 ]
