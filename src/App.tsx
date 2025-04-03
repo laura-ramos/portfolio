@@ -8,9 +8,11 @@ import { Projects } from './pages/Projects'
 import { Education } from './pages/Education'
 import { Skills } from './pages/Skills'
 import { Footer } from './Layout/Footer'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 library.add(fab)
-
+AOS.init();
 function App() {
 
   return (

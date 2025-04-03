@@ -1,7 +1,6 @@
 import { ThemeButtom } from "../componets/ThemeButtom";
 import { MENU } from "../data/data";
 import logo from "../assets/developer.png";
-import { Link } from "react-scroll";
 
 export const Header = () => {
 
@@ -36,15 +35,9 @@ export const Header = () => {
                 <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
                   {MENU.map((item, index) => (
                     <li key={index}>
-                      <Link
-                        activeClass="active transition delay-300 duration-700"
-                        to={item.url}
-                        spy={true}
-                        smooth={true}
-                        offset={50}
-                        duration={500}>
+                      <a href={item.url} >
                         {item.title}
-                      </Link>
+                      </a>
                     </li>
                   ))}
                 </ul>
@@ -56,15 +49,9 @@ export const Header = () => {
             <ul className="menu menu-horizontal px-1">
               {MENU.map((item, index) => (
                 <li key={index}>
-                  <Link
-                    activeClass="active transition delay-300 duration-700"
-                    to={item.url}
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}>
-                    {item.title}
-                  </Link>
+                      <a href={item.url} >
+                        {item.title}
+                      </a>
                 </li>
               ))}
             </ul>

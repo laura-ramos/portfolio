@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const AboutMe = () => {
   return (
     <>
-      <section id="">
+      <section id="home">
         <div className="hero animate-fade-right animate-delay-[3ms]">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <div className=" content-center">
@@ -13,11 +13,9 @@ export const AboutMe = () => {
             <div>
               <h1 className="text-name text-6xl font-bold">Hi, I'm Laura!</h1>
               <p className="py-6 text-xl">
-                I am web developer from Mexico, Oaxaca. I have experience in web
-                design, coding and programing. My experience lies within front-end
-                web apps, and the main languages in my tech stack are JavaScript,
-                React, and of course HTML/CSS
-              </p>
+                Desarrollador web full-stack versátil con experiencia en el diseño, desarrollo y mantenimiento 
+                de aplicaciones web. Soy un profesional proactivo, comprometido con la entrega de resultados y 
+                la mejora continua. </p>
               <ul className="flex gap-4">
                 <li>
                   <a

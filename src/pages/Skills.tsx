@@ -3,11 +3,12 @@ import { SKILLS } from '../data/data'
 export const Skills = () => {
   return (
     <>
-      <section id="about">
+      <section id="skills">
+      <h3 className="text-6xl font-bold text-center">My Skills</h3>
         <div className="p-4 text-center">
-          <div className="animate-fade-left animate-delay-[3ms]">
+          <div className="">
             {SKILLS.map((item, index) => (
-              <div key={index} className="pt-6 pb-6">
+              <div key={index} className="pt-6 pb-6" data-aos="fade-up">
                 <h3 className="text-4xl font-bold mb-5">{item.name}</h3>
                 <ul className="inline-grid lg:grid-cols-6 gap-5 md:grid-cols-3 grid-cols-2">
                   {item.skills.map((data, index) => (

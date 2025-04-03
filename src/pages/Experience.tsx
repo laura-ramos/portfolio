@@ -15,10 +15,11 @@ export const Experience = () => {
               </div>
               <div
                 className={`card ${index % 2 === 0
-                    ? "timeline-start animate-fade-right"
-                    : "timeline-end animate-fade-left"
-                  } animate-delay-[6ms]`}
-              >
+                    ? "timeline-start"
+                    : "timeline-end"
+                  } `}
+                  data-aos="flip-right" data-aos-delay="300" data-aos-offset="200"
+                  >
                 <div className="card-body">
                   <h2 className="card-title">{item.title}</h2>
                   <time className="font-mono italic">

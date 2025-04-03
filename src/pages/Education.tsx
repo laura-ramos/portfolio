@@ -11,14 +11,14 @@ export const Education = () => {
           {EDUCATION.map((item, index) => (
             <li
               key={index}
-              className="flex items-center m-4 gap-3 animate-fade-right animate-delay-[20ms]"
+              className="flex items-center m-4 gap-3" data-aos="zoom-in"
             >
               <a className="avatar" href={item.url} target="_blank">
                 <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
                   <img src="/images/utvco.jpg" />
                 </div>
               </a>
-              <div className="card card-side shadow-xl ml-3 w-full">
+              <div className="card border shadow-xl ml-3 w-full">
                 <div className="card-body">
                   <h2 className="card-title">{item.title}</h2>
                   <time className="font-mono italic">
