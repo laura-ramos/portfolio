@@ -3,32 +3,32 @@ export const SKILLS = [
         name: 'Backend',
         image: "/images/frontend.png",
         skills: [
-            {name: 'PHP', image: '/images/php.png' },
-            {name: 'Drupal', image: '/images/drupal.png' },
-            {name: 'Laravel', image: '/images/laravel.png' },
-            {name: 'Python', image: '/images/python.png' },
+            {name: 'PHP', image: '/portfolio/images/php.png' },
+            {name: 'Drupal', image: '/portfolio/images/drupal.png' },
+            {name: 'Laravel', image: '/portfolio/images/laravel.png' },
+            {name: 'Python', image: '/portfolio/images/python.png' },
         ]
     },
     {
         name: 'Frontend',
         image: "/images/backend.png",
         skills: [
-            {name: 'Javascript', image: '/images/js.png' },
-            {name: 'React', image: '/images/React.webp' },
-            {name: 'HTML5', image: '/images/html.png' },
-            {name: 'CSS3', image: '/images/css.png' },
-            {name: 'Tailwind', image: '/images/tailwind.png' },
-            {name: 'Bootstrap', image: '/images/bootstrap.png' },
+            {name: 'Javascript', image: '/portfolio/images/js.png' },
+            {name: 'React', image: '/portfolio/images/React.webp' },
+            {name: 'HTML5', image: '/portfolio/images/html.png' },
+            {name: 'CSS3', image: '/portfolio/images/css.png' },
+            {name: 'Tailwind', image: '/portfolio/images/tailwind.png' },
+            {name: 'Bootstrap', image: '/portfolio/images/bootstrap.png' },
         ]
     },
     {
         name: 'Tools',
         skills: [
-            { name: 'GIT', image: '/images/git.png' },
-            { name: 'GITHUB', image: '/images/github.png' },
-            { name: 'Jira', image: '/images/jira.png' },
-            { name: 'Postman', image: '/images/postman.png' },
-            { name: 'Docker', image: '/images/docker.png' },
+            { name: 'GIT', image: '/portfolio/images/git.png' },
+            { name: 'GITHUB', image: '/portfolio/images/github.png' },
+            { name: 'Jira', image: '/portfolio/images/jira.png' },
+            { name: 'Postman', image: '/portfolio/images/postman.png' },
+            { name: 'Docker', image: '/portfolio/images/docker.png' },
         ]
     }
 
@@ -126,7 +126,7 @@ export const PROJECTS = [
     {
         title: 'Stripe Gateway',
         description: "The main purpose of this module is process service payments with Stripe, allow Drupal users to subscribe to Stripe plans and have one or more Drupal roles.",
-        image: "/images/stripe.png",
+        image: "/portfolio/images/stripe.png",
         url: "https://www.drupal.org/project/stripe_gateway",
         color: "bg-ping-300",
         skills: ["Drupal", "PHP", "Stripe API"]
@@ -134,7 +134,7 @@ export const PROJECTS = [
     {
         title: 'Invoicing Mexican Sales',
         description: "Allows site to invoicing in compliance with mexican laws service. By now, module only works with Factura Digital México service to generate invoices.",
-        image: "/images/ims.png",
+        image: "/portfolio/images/ims.png",
         url: "https://www.drupal.org/project/ims",
         color: "bg-orange-300",
         skills: ["Drupal", "PHP"]
@@ -142,7 +142,7 @@ export const PROJECTS = [
     {
         title: 'Bigin CRM integration',
         description: "The main purpouse of this module is add all your Drupal new users accounts like prospects in Bigin CRM, the new kid on the block of Zoho familiy. Uses the Bigin Rest APIs to provide integration.",
-        image: "/images/bigin.png",
+        image: "/portfolio/images/bigin.png",
         url: "https://www.drupal.org/project/bigin_crm",
         color: "bg-purple-300",
         skills: ["Drupal", "PHP", "Bigin CRM API"]
@@ -150,7 +150,7 @@ export const PROJECTS = [
     {
         title: 'Portfolio',
         description: "",
-        image: "/images/portfolio.png",
+        image: "/portfolio/images/portfolio.png",
         url: "/",
         color: "bg-purple-300",
         skills: ["React", "Tailwind", "Daisy UI"]
