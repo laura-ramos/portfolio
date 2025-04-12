@@ -8,7 +8,7 @@ export const AboutMe = () => {
         <div className="hero animate-fade-right animate-delay-[3ms]">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <div className=" content-center">
-              <img src={image} className="rounded-lg shadow-2xl w-full" />
+              <img src={image} className="rounded-lg shadow-2xl max-w-80" />
             </div>
             <div>
               <h1 className="text-name text-6xl font-bold">Hi, I'm Laura!</h1>

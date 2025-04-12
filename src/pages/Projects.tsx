@@ -10,12 +10,12 @@ export const Projects = () => {
             <div key={index} className="bg-base-100 shadow-xl h-fit border">
               <a href={item.url} target="_blank">
                 <div
-                  className={`relative group portfolio overflow-hidden shadow-sm border`}
+                  className={`relative group portfolio overflow-hidden shadow-sm`}
                 >
                   <img
                     src={item.image}
                     alt="Imagen"
-                    className="w-full h-auto transition duration-300 ease-in-out hover:scale-110"
+                    className="w-full max-h-64 object-cover transition duration-300 ease-in-out hover:scale-110"
                   />
                 </div>
                 <div className="p-4">
