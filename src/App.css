@@ -18,7 +18,6 @@
 .text-name {
   display: block;
   white-space: nowrap;
-  width: 400px;
   overflow: hidden;
   border-right: 2px solid rgba(0, 0, 0, 0.87);
   animation: typing 5s steps(23) infinite alternate;
@@ -29,7 +28,7 @@
     width: 0;
   }
   100% {
-    width: 400px;
+    width: 100%;
   }
 }
 

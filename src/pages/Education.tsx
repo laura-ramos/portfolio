@@ -15,7 +15,7 @@ export const Education = () => {
             >
               <a className="avatar hidden md:block" href={item.url} target="_blank">
                 <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
-                  <img src="/images/utvco.jpg" />
+                  <img src="/portfolio/images/utvco.jpg" />
                 </div>
               </a>
               <div className="card border shadow-xl ml-3 w-full">

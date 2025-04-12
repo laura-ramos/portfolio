@@ -11,7 +11,7 @@ export const AboutMe = () => {
               <img src={image} className="rounded-lg shadow-2xl max-w-80" />
             </div>
             <div>
-              <h1 className="text-name text-6xl font-bold">Hi, I'm Laura!</h1>
+              <h1 className="text-name max-w-fit text-6xl font-bold">Hi, I'm Laura!</h1>
               <p className="py-6 text-xl">
                 Desarrollador web full-stack versátil con experiencia en el diseño, desarrollo y mantenimiento 
                 de aplicaciones web. Soy un profesional proactivo, comprometido con la entrega de resultados y 
