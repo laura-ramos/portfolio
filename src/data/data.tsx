@@ -36,7 +36,7 @@ export const SKILLS = [
 
 export const EXPERIENCE = [
     {
-        title: 'Desarrollador Frontend',
+        title: 'Programador Full Stack',
         company_name: 'Editorial Golfo Pacifico S.A de C.V,',
         description: [
             'Desarrollo y mantenimiento integral del sistema interno de ventas de la empresa, utilizando Laravel como backend, React para la interfaz de usuario y MySQL como base de datos.',
@@ -85,7 +85,7 @@ export const EXPERIENCE = [
 ]
 
 export const MENU = [
-    { title: 'Home', url: '#about' },
+    { title: 'Home', url: '#' },
     { title: 'Skills', url: '#skills' },
     { title: 'Education', url: '#education' },
     { title: 'Experience', url: '#experience' },

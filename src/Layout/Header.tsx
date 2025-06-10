@@ -43,7 +43,7 @@ export const Header = () => {
                 </ul>
               </div>
             </div>
-            <a href="/"><img src={logo} /></a>
+            <a href="/" aria-label="Home"><img src={logo} alt="Logo" /></a>
           </div>
           <div className="navbar-center hidden md:flex">
             <ul className="menu menu-horizontal px-1">

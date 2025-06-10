@@ -6,7 +6,7 @@ export const Experience = () => {
   return (
     <>
       <section id="experience">
-        <h3 className="text-6xl font-bold text-center">Experience</h3>
+        <h2 className="text-3xl font-bold text-center">Experience</h2>
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
           {EXPERIENCE.map((item, index) => (
             <li key={index}>
@@ -21,7 +21,7 @@ export const Experience = () => {
                   data-aos="flip-right" data-aos-delay="300" data-aos-offset="200"
                   >
                 <div className="card-body">
-                  <h2 className="card-title">{item.title}</h2>
+                  <h3 className="card-title">{item.title}</h3>
                   <time className="font-mono italic">
                     {item.start_date}-{item.end_date}
                   </time>
