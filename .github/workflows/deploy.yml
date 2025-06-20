@@ -2,23 +2,28 @@ name: Build and Deploy Portfolio
 on:
   push:
     branches:
-      - main
-jobs:
-build-and-deploy:
-  runs-on: ubuntu-latest
+      - develop
+
+permissions:
+  contents: write
+  pages: write
   
-  steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
 
-    - name: Install dependencies
-      run: npm install
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: Build the project
-      run: npm run build
+      - name: Install dependencies
+        run: npm install
 
-    - name: Deploy to production server
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-        branch: gh-pages
-        folder: dist
+      - name: Build the project
+        run: npm run build
+
+      - name: Deploy to production server
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: dist
