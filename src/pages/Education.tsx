@@ -6,16 +6,16 @@ export const Education = () => {
   return (
     <>
       <section id="education">
-        <h3 className="text-6xl font-bold text-center">Education</h3>
+        <h2 className="text-3xl font-bold text-center">Education</h2>
         <ul className="">
           {EDUCATION.map((item, index) => (
             <li
               key={index}
               className="sm:flex-none md:flex items-center m-4 gap-3" data-aos="zoom-in"
             >
-              <a className="avatar hidden md:block" href={item.url} target="_blank">
+              <a className="avatar hidden md:block" href={item.url} target="_blank" aria-label="UTVCO">
                 <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
-                  <img src="/portfolio/images/utvco.jpg" />
+                  <img src="/portfolio/images/utvco.jpg" alt="Logo UTVCO"/>
                 </div>
               </a>
               <div className="card border shadow-xl ml-3 w-full">

@@ -4,7 +4,7 @@ export const Projects = () => {
   return (
     <>
       <section id="projects">
-        <h3 className="text-6xl font-bold text-center">Projects</h3>
+        <h2 className="text-3xl font-bold text-center">Projects</h2>
         <div className="grid md:grid-cols-2 gap-6 mt-5 grid-cols-1">
           {PROJECTS.map((item, index) => (
             <div key={index} className="bg-base-100 shadow-xl h-fit border">
