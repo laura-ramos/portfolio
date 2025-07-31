@@ -1,6 +1,8 @@
 import image from "../assets/girl-dev.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
+
 export const AboutMe = () => {
   return (
     <>
@@ -13,9 +15,10 @@ export const AboutMe = () => {
             <div>
               <h1 className="text-name text-4xl font-bold">Hi, I'm Laura!</h1>
               <p className="py-6 text-xl">
-                Desarrollador web con experiencia en el diseño, desarrollo y mantenimiento de aplicaciones web completas,
-                tanto en front-end como en back-end. Proactivo, orientado a resultados y con un fuerte compromiso con la 
-                mejora continua y el aprendizaje de nuevas tecnologías.
+                Desarrollador Web Frontend con experiencia en el diseño, desarrollo y mantenimiento
+                de aplicaciones web completas. Colaborador eficiente, con un buen
+                entendimiento del backend, enfocado en resultados y la mejora continua
+                para entregar soluciones exitosas.
               </p>
               <ul className="flex gap-4">
                 <li>
@@ -24,6 +27,7 @@ export const AboutMe = () => {
                     href="https://github.com/laura-ramos"
                     title="github"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
                   </a>
@@ -31,11 +35,21 @@ export const AboutMe = () => {
                 <li>
                   <a
                     className="btn btn-circle btn-outline btn-primary text-neutral"
-                    href="https://mx.linkedin.com/in/laura-ramos-alonso-923056223"
+                    href="https://www.linkedin.com/in/laura-ramos-dev"
                     title="linkedin"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={["fab", "linkedin"]} size="lg" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="btn btn-outline btn-primary text-neutral"
+                    href="mailto:lauraramos.dev@gmail.com"
+                    title="contact me by email"
+                  >
+                    <FontAwesomeIcon icon={faEnvelope} size="lg" /> Contáctame
                   </a>
                 </li>
               </ul>

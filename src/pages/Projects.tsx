@@ -8,7 +8,7 @@ export const Projects = () => {
         <div className="grid md:grid-cols-2 gap-6 mt-5 grid-cols-1">
           {PROJECTS.map((item, index) => (
             <div key={index} className="bg-base-100 shadow-xl h-fit border">
-              <a href={item.url} target="_blank">
+              <a href={item.url} target="_blank" rel="noreferrer">
                 <div
                   className={`relative group portfolio overflow-hidden shadow-sm`}
                 >
@@ -23,7 +23,9 @@ export const Projects = () => {
                   <p>{item.description}</p>
                   <p>
                     {item.skills.map((skill, i) => (
-                      <div key={i} className="badge badge-dash badge-primary">{skill}</div>  
+                      <div key={i} className="badge badge-dash badge-primary">
+                        {skill}
+                      </div>  
                     ))}
                   </p>
                 </div>
