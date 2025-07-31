@@ -1,5 +1,5 @@
 import image from "../assets/girl-dev.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { SocialButton } from "../componets/SocialButton";
 
 export const AboutMe = () => {
   return (
@@ -13,32 +13,12 @@ export const AboutMe = () => {
             <div>
               <h1 className="text-name text-4xl font-bold">Hi, I'm Laura!</h1>
               <p className="py-6 text-xl">
-                Desarrollador web con experiencia en el diseño, desarrollo y mantenimiento de aplicaciones web completas,
-                tanto en front-end como en back-end. Proactivo, orientado a resultados y con un fuerte compromiso con la 
-                mejora continua y el aprendizaje de nuevas tecnologías.
+                Desarrollador Web Frontend con experiencia en el diseño, desarrollo y mantenimiento
+                de aplicaciones web completas. Colaborador eficiente, con un buen
+                entendimiento del backend, enfocado en resultados y la mejora continua
+                para entregar soluciones exitosas.
               </p>
-              <ul className="flex gap-4">
-                <li>
-                  <a
-                    className="btn btn-circle btn-outline btn-primary text-neutral"
-                    href="https://github.com/laura-ramos"
-                    title="github"
-                    target="_blank"
-                  >
-                    <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="btn btn-circle btn-outline btn-primary text-neutral"
-                    href="https://mx.linkedin.com/in/laura-ramos-alonso-923056223"
-                    title="linkedin"
-                    target="_blank"
-                  >
-                    <FontAwesomeIcon icon={["fab", "linkedin"]} size="lg" />
-                  </a>
-                </li>
-              </ul>
+              <SocialButton/>
             </div>
           </div>
         </div>
