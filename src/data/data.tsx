@@ -45,7 +45,7 @@ export const EXPERIENCE = [
       'Gestión eficiente de solicitudes de soporte a través de la herramienta Service Desk, resolviendo problemas técnicos y funcionales de los usuarios y coordinando el mantenimiento preventivo de equipos de cómputo.'
     ],
     start_date: 'Ene 2022',
-    end_date: 'Actualidad',
+    end_date: 'Abr 2025',
     skills: ["Drupal", "Laravel", "PHP", "React", "Tailwind", "Docker", "Jira", "Python", "Bootstrap"]
   },
   {
@@ -101,23 +101,19 @@ export const EDUCATION = [
   {
     title: 'Ing En Tecnologías de la Información',
     college: 'Universidad Tecnologica de los Valles Centrales de Oaxaca',
-    description: [
-      'Avenida Universidad S/N, 71270 San Pablo Huixtepec, Oax.'
-    ],
-    start_date: 'Sep 2017',
-    end_date: 'Abr 2019',
-    url: "https://utvco.edu.mx/"
+    description: 'Avenida Universidad S/N, 71270 San Pablo Huixtepec, Oax.',
+    duration: 'Sep 2017 - Abr 2019',
+    url: "https://utvco.edu.mx/",
+    image: "/portfolio/images/utvco.jpg"
   },
 
   {
     title: 'TSU En Tecnologías de la Información',
     college: 'Universidad Tecnologica de los Valles Centrales de Oaxaca',
-    description: [
-      'Avenida Universidad S/N, 71270 San Pablo Huixtepec, Oax.'
-    ],
-    start_date: 'Sep 2015',
-    end_date: 'Ag 2017',
-    url: "https://utvco.edu.mx/"
+    description: 'Avenida Universidad S/N, 71270 San Pablo Huixtepec, Oax.',
+    duration: 'Sep 2015 - Ag 2017',
+    url: "https://utvco.edu.mx/",
+    image: "/portfolio/images/utvco.jpg"
   },
 
 ]

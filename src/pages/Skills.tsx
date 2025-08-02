@@ -13,7 +13,7 @@ export const Skills = () => {
                 <h3 className="font-bold mb-5">{item.name}</h3>
                 <ul className="grid grid-cols-2 md:grid-cols-4 gap-4 justify-items-center justify-center">
                   {item.skills.map((data, index) => (
-                    <SkillItem key={index} name={data.name} image={data.image}/>
+                    <SkillItem key={index} {...data}/>
                   ))}
                 </ul>
               </div>

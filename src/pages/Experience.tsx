@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { EXPERIENCE } from "../data/data";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons/faBriefcase";
+import { Card } from "../componets/Card";
 
 export const Experience = () => {
   return (
@@ -22,18 +23,7 @@ export const Experience = () => {
                 data-aos-delay="300"
                 data-aos-offset="200"
               >
-                <div className="card-body">
-                  <h3 className="card-title">{item.title}</h3>
-                  <time className="font-mono italic">
-                    {item.start_date}-{item.end_date}
-                  </time>
-                  <div className="text-lg font-black">{item.company_name}</div>
-                  <ul className="list-disc">
-                    {item.description.map((data, index) => (
-                      <li key={index}>{data}</li>
-                    ))}
-                  </ul>
-                </div>
+                <Card {...item}/>
               </div>
               <hr />
             </li>

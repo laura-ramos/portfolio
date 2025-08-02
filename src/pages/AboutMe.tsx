@@ -1,5 +1,5 @@
 import image from "../assets/girl-dev.png";
-import { SocialButton } from "../componets/SocialButton";
+import { SocialLinks } from "../componets/SocialLinks";
 
 export const AboutMe = () => {
   return (
@@ -18,7 +18,7 @@ export const AboutMe = () => {
                 entendimiento del backend, enfocado en resultados y la mejora continua
                 para entregar soluciones exitosas.
               </p>
-              <SocialButton/>
+              <SocialLinks/>
             </div>
           </div>
         </div>
