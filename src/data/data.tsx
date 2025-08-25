@@ -22,7 +22,7 @@ export const SKILLS = [
     ]
   },
   {
-    name: 'Tools',
+    name: 'Otros',
     skills: [
       { name: 'GIT', image: '/portfolio/images/git.png' },
       { name: 'GITHUB', image: '/portfolio/images/github.png' },
@@ -85,11 +85,11 @@ export const EXPERIENCE = [
 ]
 
 export const MENU = [
-  { title: 'Home', url: '#' },
-  { title: 'Skills', url: '#skills' },
-  { title: 'Education', url: '#education' },
-  { title: 'Experience', url: '#experience' },
-  { title: 'Projects', url: '#projects' },
+  { title: 'Inicio', url: '#' },
+  { title: 'Habilidades', url: '#skills' },
+  { title: 'Educación', url: '#education' },
+  { title: 'Experiencia', url: '#experience' },
+  { title: 'Proyectos', url: '#projects' },
 ]
 
 export const SOCIAL_NETWORKs = [

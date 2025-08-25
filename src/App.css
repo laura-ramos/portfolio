@@ -22,6 +22,7 @@
   border-right: 2px solid rgba(0, 0, 0, 0.87);
   animation: typing 5s steps(23) infinite alternate;
   width: 250px;
+  padding-bottom: 3px;
 }
 
 @keyframes typing {
@@ -29,7 +30,7 @@
     width: 0;
   }
   100% {
-    width: 250px;
+    width: 290px;
   }
 }
 

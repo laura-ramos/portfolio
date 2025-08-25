@@ -22,13 +22,13 @@ export const ProjectItem = ({ title, url, image, description, skills=[] }: Props
         <div className="p-4">
           <h2 className="text-lg font-bold">{title}</h2>
           <p>{description}</p>
-          <p>
+          <div>
             {skills.map((skill, i) => (
-              <div key={i} className="badge badge-dash badge-primary">
+              <span key={i} className="badge badge-dash badge-primary">
                 {skill}
-              </div>
+              </span>
             ))}
-          </p>
+          </div>
         </div>
       </a>
     </div>

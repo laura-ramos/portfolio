@@ -7,7 +7,7 @@ export const Experience = () => {
   return (
     <>
       <section id="experience">
-        <h2 className="text-3xl font-bold text-center">Experience</h2>
+        <h2 className="text-3xl font-bold text-center">Experiencia</h2>
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
           {EXPERIENCE.map((item, index) => (
             <li key={index}>
